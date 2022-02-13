@@ -46,6 +46,8 @@ namespace ProductReviewManagement
             Console.WriteLine("\n\n");
             review.ProductIdCount(productlist);
 
+            Console.WriteLine("\n\n");
+            review.ProductReview(productlist);
         }
     }
 }
