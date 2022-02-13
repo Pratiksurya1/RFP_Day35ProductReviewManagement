@@ -43,6 +43,8 @@ namespace ProductReviewManagement
             Console.WriteLine("\n\n");
             review.GreaterThanThreeRatingRecords(productlist);
 
+            Console.WriteLine("\n\n");
+            review.ProductIdCount(productlist);
 
         }
     }
