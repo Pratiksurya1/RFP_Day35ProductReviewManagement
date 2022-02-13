@@ -45,6 +45,7 @@ namespace ProductReviewManagement
                 Console.WriteLine(list.ProductId + " \t\t " + list.Count);
             }
         }
+        //UC5   UC7
         public void ProductReview(List<ProductReview> reviewList)
         {
             var records = from products in reviewList select new { ProductId = products.ProductId, Review = products.Review };
