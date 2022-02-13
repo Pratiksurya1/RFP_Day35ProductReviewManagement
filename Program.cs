@@ -51,6 +51,8 @@ namespace ProductReviewManagement
 
             Console.WriteLine("\n\n");
             review.SkipTopFiveRecord(productlist);
+
+            review.DataTable(productlist);
         }
     }
 }
