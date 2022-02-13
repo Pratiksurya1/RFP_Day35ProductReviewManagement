@@ -92,5 +92,10 @@ namespace ProductReviewManagement
                 Console.WriteLine(data["ProductId"] +" \t\t " + data["UserId"] + " \t\t " + data["Rating"] + "  \t\t " + data["Review"] + " \t\t " + data["IsLike"]);
             }
         }
+        public void AverageRating(DataTable dt)
+        {
+            double ans = (double)dt.Select().Where(p => p["rating"] != DBNull.Value).Select(c => Convert.ToDecimal(c["rating"])).Average();
+            Console.WriteLine("Average Of Rating : " + ans);
+        }
     }
 }

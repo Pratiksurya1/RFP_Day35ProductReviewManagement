@@ -57,6 +57,9 @@ namespace ProductReviewManagement
 
             Console.WriteLine("\n\n");
             review.isLikeTrueRecord(dt);
+
+            Console.WriteLine("\n\n");
+            review.AverageRating(dt);
         }
     }
 }
