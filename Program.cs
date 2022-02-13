@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 
 namespace ProductReviewManagement
 {
@@ -52,7 +53,10 @@ namespace ProductReviewManagement
             Console.WriteLine("\n\n");
             review.SkipTopFiveRecord(productlist);
 
-            review.DataTable(productlist);
+            DataTable dt =review.DataTableLinQ(productlist);
+
+            Console.WriteLine("\n\n");
+            review.isLikeTrueRecord(dt);
         }
     }
 }

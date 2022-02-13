@@ -67,18 +67,29 @@ namespace ProductReviewManagement
             }
         }
 
-        public void DataTable(List<ProductReview> reviewList)
+        public DataTable DataTableLinQ(List<ProductReview> reviewList)
         {
             DataTable dt = new DataTable();
             dt.Columns.Add("ProductId");
             dt.Columns.Add("UserId");
             dt.Columns.Add("Rating");
             dt.Columns.Add("Review");
-            dt.Columns.Add("IsLike");
+            dt.Columns.Add("IsLike",typeof(bool));
 
             foreach (var list in reviewList)
             {
                 dt.Rows.Add(list.ProductId,list.UserId,list.Rating,list.Review,list.isLike);
+            }
+            return dt;
+        }
+        public void isLikeTrueRecord(DataTable dt)
+        {
+            var records = from t in dt.AsEnumerable() where t.Field<bool>("isLike") == true select t;
+
+            Console.WriteLine("Product Id \t User Id \t Rating \t Review \t Is Like");
+            foreach (var data in records)
+            {
+                Console.WriteLine(data["ProductId"] +" \t\t " + data["UserId"] + " \t\t " + data["Rating"] + "  \t\t " + data["Review"] + " \t\t " + data["IsLike"]);
             }
         }
     }
