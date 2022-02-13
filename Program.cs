@@ -35,6 +35,9 @@ namespace ProductReviewManagement
                 new ProductReview() { ProductId = 3, UserId = 7, Rating = 4.5, Review = "VeryGood", isLike = true },
                 new ProductReview() { ProductId = 4, UserId = 5, Rating = 1.7, Review = "Very Bad", isLike = false }
             };
+
+            ReviewManagement review= new ReviewManagement();
+            review.TopThreeRecords(productlist);
         }
     }
 }

@@ -1,0 +1,15 @@
+D:\.Net\C#\ProductReviewManagement\bin\Debug\net6.0\ProductReviewManagement.exe
+D:\.Net\C#\ProductReviewManagement\bin\Debug\net6.0\ProductReviewManagement.deps.json
+D:\.Net\C#\ProductReviewManagement\bin\Debug\net6.0\ProductReviewManagement.runtimeconfig.json
+D:\.Net\C#\ProductReviewManagement\bin\Debug\net6.0\ProductReviewManagement.dll
+D:\.Net\C#\ProductReviewManagement\bin\Debug\net6.0\ref\ProductReviewManagement.dll
+D:\.Net\C#\ProductReviewManagement\bin\Debug\net6.0\ProductReviewManagement.pdb
+D:\.Net\C#\ProductReviewManagement\obj\Debug\net6.0\ProductReviewManagement.csproj.AssemblyReference.cache
+D:\.Net\C#\ProductReviewManagement\obj\Debug\net6.0\ProductReviewManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\C#\ProductReviewManagement\obj\Debug\net6.0\ProductReviewManagement.AssemblyInfoInputs.cache
+D:\.Net\C#\ProductReviewManagement\obj\Debug\net6.0\ProductReviewManagement.AssemblyInfo.cs
+D:\.Net\C#\ProductReviewManagement\obj\Debug\net6.0\ProductReviewManagement.csproj.CoreCompileInputs.cache
+D:\.Net\C#\ProductReviewManagement\obj\Debug\net6.0\ProductReviewManagement.dll
+D:\.Net\C#\ProductReviewManagement\obj\Debug\net6.0\ref\ProductReviewManagement.dll
+D:\.Net\C#\ProductReviewManagement\obj\Debug\net6.0\ProductReviewManagement.pdb
+D:\.Net\C#\ProductReviewManagement\obj\Debug\net6.0\ProductReviewManagement.genruntimeconfig.cache
