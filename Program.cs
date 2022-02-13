@@ -7,6 +7,7 @@ namespace ProductReviewManagement
     {
         public static void Main(string[] args)
         {
+            
             List<ProductReview> productlist = new List<ProductReview>()
             {
                 new ProductReview() { ProductId = 4, UserId = 1, Rating = 2.1, Review = "Bad", isLike = false },
@@ -38,6 +39,11 @@ namespace ProductReviewManagement
 
             ReviewManagement review= new ReviewManagement();
             review.TopThreeRecords(productlist);
+            
+            Console.WriteLine("\n\n");
+            review.GreaterThanThreeRatingRecords(productlist);
+
+
         }
     }
 }
